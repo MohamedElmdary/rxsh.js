@@ -51,7 +51,7 @@ export class Select extends Component<SelectState> {
         }
 
         case "down": {
-            if (value < choices.length)
+            if (value < choices.length - 1)
                 return this.mergeState({
                     value: value + 1,
                 });
