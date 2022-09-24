@@ -8,7 +8,7 @@
         "@rxsh/base"
     ],
     "author": "MohamedElmdary <engm5081@gmail.com>",
-    "homepage": "https://github.com/MohamedElmdary/rxsh.js",
+    "homepage": "https://github.com/MohamedElmdary/rxsh.js/tree/main/packages/base",
     "license": "MIT",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
