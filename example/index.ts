@@ -1,6 +1,4 @@
-import { Confirm } from "@rxsh/confirm";
-import { Select } from "@rxsh/select";
-import { Checkbox } from "@rxsh/checkbox";
+import { Confirm, Checkbox, Select } from "@rxsh/core";
 
 async function main() {
     const result = await Confirm.create({
