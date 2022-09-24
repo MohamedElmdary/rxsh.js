@@ -1,0 +1,33 @@
+{
+    "name": "@rxsh/confirm",
+    "version": "0.0.1-alpha",
+    "description": "confirm component to allow user pick yes/no using arrows (left-right)",
+    "keywords": [
+        "rxsh",
+        "@rxsh",
+        "@rxsh/confirm"
+    ],
+    "author": "MohamedElmdary <engm5081@gmail.com>",
+    "homepage": "https://github.com/MohamedElmdary/rxsh.js/tree/main/packages/confirm",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "directories": {
+        "lib": "lib",
+        "test": "tests"
+    },
+    "files": [
+        "lib"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MohamedElmdary/rxsh.js.git"
+    },
+    "scripts": {
+        "build": "bash ../../build.sh",
+        "test": "jest"
+    },
+    "bugs": {
+        "url": "https://github.com/MohamedElmdary/rxsh.js/issues"
+    }
+}
