@@ -29,8 +29,5 @@
     },
     "bugs": {
         "url": "https://github.com/MohamedElmdary/rxsh.js/issues"
-    },
-    "dependencies": {
-        "ansi-escapes": "^6.0.0"
     }
 }
