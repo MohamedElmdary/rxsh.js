@@ -1,4 +1,5 @@
 import { Confirm } from "@rxsh/confirm";
+import { Select } from "@rxsh/select";
 
 async function main() {
     const result = await Confirm.create({
@@ -6,7 +7,12 @@ async function main() {
         default: true,
     });
 
-    console.log({ result });
+    const version = await Select.create({
+        question: "Select a package version",
+        choices: ["^4.0.0", "^3.1.7", "^2.0.5", "^0.0.1-alpha"],
+    });
+
+    console.log({ result, version });
 }
 
 main();
