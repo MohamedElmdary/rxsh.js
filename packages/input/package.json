@@ -1,0 +1,36 @@
+{
+    "name": "@rxsh/input",
+    "version": "0.0.1-alpha",
+    "description": "input component allows to get a user input and transform and validate it",
+    "keywords": [
+        "rxsh",
+        "@rxsh",
+        "@rxsh/input"
+    ],
+    "author": "MohamedElmdary <engm5081@gmail.com>",
+    "homepage": "https://github.com/MohamedElmdary/rxsh.js/tree/main/packages/input",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "directories": {
+        "lib": "lib",
+        "test": "tests"
+    },
+    "files": [
+        "lib"
+    ],
+    "publishConfig": {
+        "registry": "https://registry.yarnpkg.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MohamedElmdary/rxsh.js.git"
+    },
+    "scripts": {
+        "build": "bash ../../build.sh",
+        "test": "jest"
+    },
+    "bugs": {
+        "url": "https://github.com/MohamedElmdary/rxsh.js/issues"
+    }
+}
