@@ -1,0 +1,33 @@
+{
+    "name": "@rxsh/base",
+    "version": "0.0.1-alpha",
+    "description": "rxsh base package providing abstract class to create all framework component",
+    "keywords": [
+        "rxsh",
+        "@rxsh",
+        "@rxsh/base"
+    ],
+    "author": "MohamedElmdary <engm5081@gmail.com>",
+    "homepage": "https://github.com/MohamedElmdary/rxsh.js",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "directories": {
+        "lib": "lib",
+        "test": "tests"
+    },
+    "files": [
+        "lib"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MohamedElmdary/rxsh.js.git"
+    },
+    "scripts": {
+        "build": "bash ../../build.sh",
+        "test": "jest"
+    },
+    "bugs": {
+        "url": "https://github.com/MohamedElmdary/rxsh.js/issues"
+    }
+}
