@@ -1,4 +1,4 @@
-import { Confirm, Checkbox, Select } from "@rxsh/core";
+import { Confirm, Checkbox, Select, Input } from "@rxsh/core";
 
 async function main() {
     const result = await Confirm.create({
@@ -24,7 +24,14 @@ async function main() {
         required: true,
     });
 
-    console.log({ result, version, packages });
+    const username = await Input.create({
+        question: "Github user name",
+        default: "MohamedElmdary",
+        required: true,
+        transform: (value) => "@" + value,
+    });
+
+    console.log({ result, version, packages, username });
 }
 
 main();
